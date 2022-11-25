@@ -1,0 +1,120 @@
+.section__title--hero {
+    max-width: 360px;
+    margin: 0 auto 30px;
+    
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 26px;
+    line-height: calc(42 / 26);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $color-FFFFFF;
+
+    @media screen and (min-width: 1200px) {
+        max-width: 696px;
+        font-size: 44px;
+        line-height: calc(60 / 44);
+    }
+}
+
+.section-title--slogan {
+    @extend %visually-hidden;
+}
+ 
+.section__title--work {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42.19 / 36);
+    text-align: center;
+    color: $color-secondary-txt;
+}
+    
+
+.section__title--team {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    text-align: center;
+    color: $color-secondary-txt;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        line-height: calc(42.19 / 36);
+    }
+}
+
+
+.section__title--clients {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+    text-align: center;
+    color: $color-secondary-txt;
+
+}
+
+.title-social {
+    display: inline-block;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: $color-FFFFFF;
+
+    @media screen and (min-width:768px) {
+        margin-top: 0;
+    }
+
+}
+
+/* =================  PORTFOLIO  ==================== */
+
+.title-portfolio {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.text__card {
+    margin-bottom: 4px;
+
+    color: $color-secondary-txt;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+}
+
+.text__card--link {
+
+    color: $color-main-txt;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+}
+
+.title {
+    padding: 20px 24px;
+
+    background: $color-FFFFFF;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+
+}

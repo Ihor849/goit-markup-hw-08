@@ -1,0 +1,147 @@
+.button--hero {
+    width: 200px;
+    height: 50px;
+    background-color: $color-accent-2196F3;
+    color: $color-FFFFFF;
+    transition: background-color $transition ;
+
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+
+    &:hover,
+    &:focus {
+        background-color: $color-hover-188CE8;
+    
+    }
+}
+  
+.button--modal {
+    width: 200px;
+    height: 50px;
+    display: block;
+
+    background-color: $color-accent-2196F3;
+    color: $color-FFFFFF;
+    transition: background-color $transition ;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+
+    &:hover,
+    &:focus {
+        background-color: $color-hover-188CE8;
+    
+    }
+}
+
+
+
+.buttonnav-menu {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $color-FFFFFF;
+    cursor: pointer; 
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+.buttonnav-menu .icon-cross {
+    display: none;
+}
+.buttonnav-menu.is-open .icon-cross {
+    display: block;
+}
+.buttonnav-menu.is-open .icon-menu {
+    display: none;
+}
+
+.buttonnav-menu:focus {
+    fill:  #2196F3;
+}
+
+
+.button--form {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    background: #2196F3;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color $transition;
+
+    &:hover,
+    &:focus {
+        background-color: $color-hover-188CE8;
+    }
+    @media screen and (min-width: 1200px) {
+       margin: 0;
+    }
+}
+
+
+/* =================  PORTFOLIO  ==================== */
+
+.nav__butten {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: block;
+    border-radius: 4px;
+    border-color: transparent;
+    font-family: inherit;
+    background-color: $color-F5F4FA;
+    transition: background-color $transition,
+    color $transition,
+    box-shadow $transition;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 /16);
+
+    @media screen and (min-width: 1200px) {
+        &:focus,
+        &:hover {
+        background-color: $color-accent-2196F3;
+        color: $color-FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    }
+    
+
+    
+}
+
+.nav__butten--first {
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+

@@ -1,0 +1,33 @@
+ 
+.overlay__text {
+    position: absolute;
+    display: block;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform $transition;
+    background: rgba(33, 150, 243, 0.9);
+    
+    padding: 77px 24px;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    color: $color-FFFFFF;
+    
+    .gallery__link:focus &,
+    .gallery__link:hover & {
+        transform: translateY(0);
+    
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 49px 24px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 63px 24px;
+    } 
+        
+    
+}

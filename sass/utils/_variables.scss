@@ -1,0 +1,85 @@
+
+
+// =========  Fonts  ========== // 
+$font-Roboto: 'Roboto', sans-serif;
+$font-Raleway: 'Raleway', sans-serif;
+// =========  Text colors  ====== //
+$color-main-txt:#757575;
+$color-secondary-txt:#212121;
+//========= Colors ====== //
+$color-accent-2196F3: #2196F3;
+$color-hover-188CE8: #188CE8;
+$color-000000: #000000;
+$color-212121: #212121;
+$color-FFFFFF: #FFFFFF;
+$color-EEEEEE: #EEEEEE;
+$color-AFB1B8: #AFB1B8;
+$color-F5F4FA: #F5F4FA;
+$color-C4C4C4: #C4C4C4;
+//=========  BG-colors section ====== //
+$bg-sect-main: #FFFFFF;
+$bg-sect-secondary:  #F5F4FA;
+$bg-footer: #2F303A;
+
+// ==========  Transition  ========//
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//========  Base styles  ===== //
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $bg-sect-main;
+    color: $color-main-txt;
+    letter-spacing: 0.03em;
+    &.modal-open {
+        overflow:hidden;
+    }
+}
+
+//========  Reset start  ===== //
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.list {
+    list-style: none;
+
+}
+
+.button {
+    padding: 0;
+    border: 0;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+

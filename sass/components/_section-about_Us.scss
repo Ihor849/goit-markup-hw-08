@@ -1,0 +1,67 @@
+.slogan__block {
+    @media screen and (min-width:768px) {
+        width: 354px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: calc((100% - 2 * 30px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        margin: 0;
+    }
+}
+
+.slogan {
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap
+    }
+    @media screen and (min-width: 1200px) {
+       gap: 30px;
+    }
+}
+
+.slogan__icon {
+    padding: 25px 192.34px;
+    margin-bottom: 30px;
+    background: $color-F5F4FA;
+    border-radius: 4px;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        
+        width: 354px;
+        height: 120px;
+        padding: 25px 144.34px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        padding: 25px 100px;
+        
+    }
+}
+
+.slogan__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-secondary-txt;
+}
+
+.slogan__text {
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: $color-main-txt;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+        
+    }
+}

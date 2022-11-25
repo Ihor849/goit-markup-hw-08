@@ -1,0 +1,47 @@
+@media screen and (min-width:1200px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.card__list {
+    width: 370px;
+    height: 294px;
+    position: relative;
+}
+
+.card__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: $color-FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+
+}
+
+.card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+
+.title {
+    margin-bottom: 10px;
+    
+    color: $color-secondary-txt;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.19;
+}
+
