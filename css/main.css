@@ -1701,6 +1701,7 @@ img {
 }
 
 .form__email {
+  padding-left: 15px;
   width: 100%;
   height: 50px;
   color: #FFFFFF;
