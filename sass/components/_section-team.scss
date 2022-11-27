@@ -46,7 +46,7 @@
 
 .team__tagline {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     text-align: center;
 }
 
@@ -55,16 +55,16 @@
 .team__title {
     margin-bottom: 10px;
 
-    color: $color-secondary-txt;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(18.75 / 16);
+    line-height: calc(19 / 16);
+    color: $color-secondary-txt;
 }
 
 .team__text {
     margin-bottom: 16px;
 
     font-size: 16px;
-    line-height: calc(18.75 / 16);
+    line-height: calc(19 / 16);
     
 }

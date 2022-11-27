@@ -1,43 +1,41 @@
 .slogan__block {
+    margin-bottom: 30px;
+    
     @media screen and (min-width:768px) {
         width: 354px;
-        margin-left: 15px;
-        margin-right: 15px;
-        width: calc((100% - 2 * 30px) / 2);
-    }
-
-    @media screen and (min-width: 1200px) {
-        width: 270px;
-        margin: 0;
     }
 }
 
 .slogan {
+    display: flex;
+    flex-wrap: wrap;
+
     @media screen and (min-width:768px) {
-        display: flex;
-        flex-wrap: wrap
+        gap: 30px;
     }
+
     @media screen and (min-width: 1200px) {
-       gap: 30px;
+        flex-wrap: nowrap;
+    
     }
 }
 
 .slogan__icon {
-    padding: 25px 192.34px;
+    
     margin-bottom: 30px;
+    text-align: center;
     background: $color-F5F4FA;
     border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-    @media screen and (min-width:768px) {
-        display: flex;
-        
-        width: 354px;
-        height: 120px;
-        padding: 25px 144.34px;
+    @media screen and (min-width: 768px) {
+        padding: 25px 142px;
+         
     }
+
     @media screen and (min-width: 1200px) {
-        width: 270px;
-        padding: 25px 100px;
+       padding: 25px 100px;
         
     }
 }
@@ -51,17 +49,14 @@
     text-align: center;
     text-transform: uppercase;
     color: $color-secondary-txt;
+
+    @media screen and (min-width:1200px) {
+        text-align: start;
+    }
 }
 
 .slogan__text {
-    margin-bottom: 30px;
-
     font-size: 14px;
     line-height: calc(24 / 14);
     color: $color-main-txt;
-
-    @media screen and (min-width: 1200px) {
-        margin-bottom: 0;
-        
-    }
 }

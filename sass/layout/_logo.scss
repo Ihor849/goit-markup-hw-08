@@ -3,16 +3,12 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 24px;
+    line-height: calc(28 / 24);
     color: $color-212121;
 
-    @media screen and (min-width:768px) {
-       margin-right: auto;
-    }
 }
 
-.logo-link {
-    padding-left: 15px;
-}
+
 
 .logo-link__text--footer,
 .logo-link__text--header {
@@ -20,11 +16,7 @@
 }
 
 .logo-link--footer {
-    margin-left: 163px;
     color: $color-FFFFFF;
-    @media screen and (min-width:768px) {
-        margin-left: 115px;
-    }
 
     @media screen and (min-width:1200px) {
         margin-left: 0;

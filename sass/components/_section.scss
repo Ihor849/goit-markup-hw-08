@@ -12,9 +12,7 @@
 .section__hero {
     padding-top: 180px;
     padding-bottom: 180px;
-    width: 480px;
-    height: 400px;
-
+    background-position: center;
     margin-left: auto;
     margin-right: auto;
     background-color: $color-C4C4C4;
@@ -50,6 +48,8 @@
     }
 
     @media screen and (min-width: 1200px) {
+        background-size: cover;
+        background-position: center;
         padding-top: 200px;
         padding-bottom: 200px;
         width: 1600px;
@@ -68,9 +68,5 @@
     }
 }
 
-.section--work {
-    @media screen and (max-width:1200px) {
-        display: none;
-    }
-}
+
 

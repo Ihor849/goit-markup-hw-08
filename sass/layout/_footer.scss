@@ -8,6 +8,7 @@
     @media screen and (min-width: 768px) {
         display: flex;
         margin-bottom: 60px;
+        align-items: baseline;
     }
 
     @media screen and (min-width: 1200px) {
@@ -16,14 +17,33 @@
 
 }
 
-.container--addres {
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 0;
+    }
+
     @media screen and (min-width:1200px) {
-        @include centredFlex();
-        justify-content: normal;
+        align-items: normal;
+    }
+}
+
+.container--addres {
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
     }
 }
 
 .container-contact {
+    margin-bottom: 60px;
     @media screen and (min-width: 768px) {
         display: flex;
         margin-bottom: 60px;
@@ -37,17 +57,8 @@
 }
 
 .address {
-    width: 232px;
-    height: 79px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
     text-align: center;
-
-    @media screen and (min-width:768px) {
-        width: 232px;
-        margin-left: 76px;
-    }
 
     @media screen and (min-width: 1200px) {
         margin-left: 0;
@@ -77,29 +88,38 @@
     &:first-child {
         margin-top: 0;
     }
+
+    @media screen and (min-width:1200px) {
+        margin-top: 9px;
+    }
 }
 
 
 .address__item {
-    padding: auto;
     color: rgba(255, 255, 255, 0.6);
     transition: color $transition;
 
-    &:hover,
-    &:focus {
-        color: $color-accent-2196F3;
+       @media screen and (min-width:1200px) {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+
+        &:hover,
+        &:focus {
+            color: $color-accent-2196F3;
+        }
+        
     }
+
 }
 
 .connect-social {
     text-align: center;
     margin: auto;
-    margin-bottom: 60px;
+   
 
     @media screen and (min-width: 768px) {
-        margin-right: 89px;
-        width: 206px;
-        padding-top: 5px;
+        margin: 0;
+        margin-left: 165px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -120,6 +140,7 @@
 
 .subscribe__text {
     margin-bottom: 20px;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -159,7 +180,8 @@
 
     @media screen and (min-width:768px) {
         width: 450px;
-        margin-left: 166px;
+        display: block;
+        margin: auto;
     }
 
     @media screen and (min-width: 1200px) {

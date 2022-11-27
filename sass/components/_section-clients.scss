@@ -2,6 +2,15 @@
 .clients {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
+
+    @media screen and (min-width:767px) {
+        margin: 0;
+        gap: 30px;
+        justify-content: center
+    }
+    
+    
     @media screen and (min-width:1200px) {
         gap: 30px;
     }
@@ -15,16 +24,13 @@
         margin: 15px;
         width: calc((100% - 2 * 30px) / 2);
     }
-    
-    @media screen and (min-width:768px) and (max-width: 1199px) {
-        width: calc((100% - 6 * 15px) / 3);
-    }
 }
 
 .clients__link { 
-    width: 210px;
-    height: 92px;
-    padding: 16px 52px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
 
     background-color: $color-FFFFFF;
     border: 1px solid $color-AFB1B8;
