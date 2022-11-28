@@ -1746,7 +1746,6 @@ img {
 
 .nav {
   width: 326px;
-  height: 91px;
   margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1758,10 +1757,14 @@ img {
 @media screen and (min-width: 768px) {
   .nav {
     width: 575px;
-    height: 54px;
+    margin-bottom: 14px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    margin-bottom: 34px;
   }
 }
 
