@@ -1,6 +1,4 @@
-.slogan__block {
-    margin-bottom: 30px;
-    
+.slogan__block {   
     @media screen and (min-width:768px) {
         width: 354px;
     }
@@ -9,9 +7,12 @@
 .slogan {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 
     @media screen and (min-width:768px) {
-        gap: 30px;
+        justify-content: center;
+
+        
     }
 
     @media screen and (min-width: 1200px) {
@@ -50,7 +51,7 @@
     text-transform: uppercase;
     color: $color-secondary-txt;
 
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width:768px) {
         text-align: start;
     }
 }
