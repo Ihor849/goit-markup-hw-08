@@ -621,7 +621,7 @@ img {
 @media screen and (min-width: 1200px) {
   .contacts__link {
     font-size: 14px;
-    line-height: 1.3333333333;
+    line-height: 1.1428571429;
   }
   .contacts__link:hover, .contacts__link:focus {
     color: #2196F3;
@@ -639,14 +639,13 @@ img {
   .contacts__tel > .contacts__link {
     font-size: 12px;
     line-height: 1.1666666667;
-    letter-spacing: 0.02em;
     color: #757575;
   }
 }
 @media screen and (min-width: 1200px) {
   .contacts__tel > .contacts__link {
     font-size: 14px;
-    line-height: 1.3333333333;
+    line-height: 1.1428571429;
   }
   .contacts__tel > .contacts__link:hover, .contacts__tel > .contacts__link:focus {
     color: #2196F3;
