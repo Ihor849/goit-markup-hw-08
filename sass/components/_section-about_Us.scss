@@ -1,4 +1,6 @@
-.slogan__block {   
+.slogan__block { 
+    width: 100%;
+
     @media screen and (min-width:768px) {
         width: 354px;
     }
@@ -6,12 +8,9 @@
 
 .slogan {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-
-    @media screen and (min-width:768px) {
-        justify-content: center;
-    }
 
     @media screen and (min-width: 1200px) {
         flex-wrap: nowrap;

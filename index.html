@@ -22,26 +22,25 @@
     <!-- Hat -->
     <header class="page-header">
       <div class="container container--header">
-        <nav class="navigation">
-          <!-- Logo -->
-          <a href="./index.html" class="logo-link"
+        <!-- Logo -->
+        <a href="./index.html" class="logo-link"
             ><span class="logo-link__text logo-link__text--header">Web</span>Studio
-          </a>
-          <button type="button" aria-expanded="false" aria-controls="menu-container" class="buttonnav-menu" data-menu-button>
-            <svg aria-label="Перемикач мобільного мєню" width="40" height="40">
-              <use 
-                class="icon-menu"
-                href="./images/icons.svg/symbol-defs.svg#icon-menu_40px-1">
-              </use>
-              <use
-                class="icon-cross"
-                href="./images/icons.svg/symbol-defs.svg#icon-close_40px">
-              </use>
-            </svg>
-          </button>
-          <!-- Navigation -->
-          <div class="menu-container is-open" id="menu-container" data-menu>
-            
+        </a>
+        <button type="button" aria-expanded="false" aria-controls="menu-container" class="buttonnav-menu" data-menu-button>
+          <svg aria-label="Перемикач мобільного мєню" width="40" height="40">
+            <use 
+              class="icon-menu"
+              href="./images/icons.svg/symbol-defs.svg#icon-menu_40px-1">
+            </use>
+            <use
+              class="icon-cross"
+              href="./images/icons.svg/symbol-defs.svg#icon-close_40px">
+            </use>
+          </svg>
+        </button>
+        <div class="menu-container is-open" id="menu-container" data-menu>
+          <nav class="navigation">
+            <!-- Navigation -->
             <ul class="navigation__list">
                 <li class="navigation__item navigation__item--studio">
                   <a
@@ -59,8 +58,9 @@
                   <a href="#" class="navigation__link">Контакти</a>
                 </li>
             </ul>
-            <!-- Contacts -->
-            <ul class="contacts">
+          </nav>
+          <!-- Contacts -->
+          <ul class="contacts">
               <li class="contacts__email">
                   <a href="mailto:info@devstudio.com" class="contacts__link">
                     <svg class="contacts__icons--email">
@@ -79,16 +79,14 @@
                     >+38 096 111 11 11
                   </a>
               </li>
-            </ul>
-            <ul class="contacts__bloc">
+          </ul>
+          <ul class="contacts__bloc">
               <li class="contacts__bloc--social"><a class="contacts__bloc--link" href="#">Instagram</a></li>
               <li class="contacts__bloc--social"><a class="contacts__bloc--link" href="#">Twitter</a></li>
               <li class="contacts__bloc--social"><a class="contacts__bloc--link" href="#">Facebook</a></li>
               <li class="contacts__bloc--social"><a class="contacts__bloc--link" href="#">LinkedIn</a></li>
-            </ul>
-            
-          </div>
-        </nav>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main -->
@@ -175,11 +173,12 @@
             <li class="card__list">
               <img
               srcset="
-                ./images/сoding-on-tablet-370-D.jpg  370w,
-                ./images/сoding-on-tablet-740@2x-D.jpg  740w,
+                ./images/сoding-on-tablet-370x294D.jpg 1x,
+                ./images/сoding-on-tablet-740x588D@2x.jpg 2x,
               "
-              src="./images/сoding-on-tablet-370.jpg"
+              src="./images/сoding-on-tablet-370x294D.jpg"
               alt="сoding-on-tablet"
+              sizes="370"
               />
               <div class="card__overlay">
                 <p class="card__text">Десктопні додатки</p>
@@ -188,12 +187,12 @@
             <li class="card__list">
               <img
               srcset="
-                ./images/laptop-and-mobile-phone-370-D.jpg  370w,
-                ./images/laptop-and-mobile-phone-740@2x-D.jpg  740w,
+                ./images/laptop-and-mobile-phone-370x294D.jpg 1x,
+                ./images/laptop-and-mobile-phone-740x588D@2x.jpg 2x,
               "
-              src="./images/laptop-and-mobile-phone-370-D.jpg"
+              src="./images/laptop-and-mobile-phone-370x294D.jpg"
               alt="laptop-and-mobile-phone"
-              sizes="(min-width: 1200px) 33vw"
+              sizes="370"
               />
               <div class="card__overlay">
                 <p class="card__text">Мобільні додатки</p>
@@ -202,12 +201,12 @@
             <li class="card__list">
               <img
                 srcset="
-                  ./images/сolor-selection-on-tablet-370-D.jpg  370w,
-                  ./images/сolor-selection-on-tablet-740@2x-D.jpg  740w,
+                  ./images/сolor-selection-on-tablet-370x294D.jpg 1x,
+                  ./images/сolor-selection-on-tablet-740x588D@2x.jpg 2x,
                 "
-                src="./images/сolor-selection-on-tablet-370-D.jpg"
+                src="./images/сolor-selection-on-tablet-370x294D.jpg"
                 alt="сolor selection on tablet"
-                sizes="(min-width: 1200px) 33vw"
+                sizes="370"
               />
               <div class="card__overlay">
                 <p class="card__text">Дизайнерські рішення</p>
@@ -225,16 +224,16 @@
               <img
                 class="team__img--card"
                 srcset="
-                  ./images/Igor-Demyanenko-270-D.jpg 270w,
-                  ./images/Igor-Demyanenko-354-T.jpg  354w,
-                  ./images/Igor-Demyanenko-450-M.jpg  450w,
-                  ./images/Igor-Demyanenko-540@2x-D.jpg  540w,
-                  ./images/Igor-Demyanenko-708@2x-T.jpg  708w,
-                  ./images/Igor-Demyanenko-900@2x-M.jpg  900w,
+                ./images/Igor-Demyanenko-450x460M.jpg     450w,
+                ./images/Igor-Demyanenko-900x920M@2x.jpg  900w,
+                ./images/Igor-Demyanenko-354x374T.jpg     354w,
+                ./images/Igor-Demyanenko-708x748T@2x.jpg  708w,
+                ./images/Igor-Demyanenko-270x260D.jpg     270w,
+                ./images/Igor-Demyanenko-540x520D@2x.jpg  540w,
                 "
-                src="./images/Igor-Demyanenko-450-M.jpg"
+                src="./images/Igor-Demyanenko-450x460M.jpg "
                 alt="Igor Demyanenko"
-                sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px 100vw"
               />
               <div class="team__tagline">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
@@ -295,16 +294,16 @@
               <img
                 class="team__img--card"
                 srcset="
-                  ./images/Olga-Repina-270-D.jpg  270w,
-                  ./images/Olga-Repina-354-T.jpg  354w,
-                  ./images/Olga-Repina-450-M.jpg  450w,
-                  ./images/Olga-Repina-540@2x-D.jpg  540w,
-                  ./images/Olga-Repina-708@2x-T.jpg  708w,
-                  ./images/Olga-Repina-900@2x-M.jpg  900w,
+                ./images/Olga-Repina-450x460M.jpg     450w,
+                ./images/Olga-Repina-900x920M@2x.jpg  900w,
+                ./images/Olga-Repina-354x374T.jpg     354w,
+                ./images/Olga-Repina-708x748T@2x.jpg  708w,
+                ./images/Olga-Repina-270x260D.jpg     270w,
+                ./images/Olga-Repina-540x520D@2x.jpg  540w,
                 "
-                src="./images/Olga-Repina-450-M.jpg"
+                src="./images/Olga-Repina-450x460M.jpg"
                 alt="Olga-Repina"
-                sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px 100vw"
               />
               <div class="team__tagline">
                 <h3 class="team__title">Ольга Рєпіна</h3>
@@ -365,16 +364,16 @@
               <img
               class="team__img--card"
               srcset="
-                ./images/Mikola-Tarasov-270-D.jpg  270w,
-                ./images/Mikola-Tarasov-354-T.jpg  354w,
-                ./images/Mikola-Tarasov-450-M.jpg  450w,
-                ./images/Mikola-Tarasov-540@2x-D.jpg  540w,
-                ./images/Mikola-Tarasov-708@2x-T.jpg  708w,
-                ./images/Mikola-Tarasov-900@2x-M.jpg  900w,
+              ./images/Mikola-Tarasov-450x460M.jpg     450w,
+              ./images/Mikola-Tarasov-900x920M@2x.jpg  900w,
+              ./images/Mikola-Tarasov-354x374T.jpg     354w,
+              ./images/Mikola-Tarasov-708x748T@2x.jpg  708w,
+              ./images/Mikola-Tarasov-270x260D.jpg     270w,
+              ./images/Mikola-Tarasov-540x520D@2x.jpg  540w,
               "
-              src="./images/Mikola-Tarasov-450-M.jpg"
+              src="./images/Mikola-Tarasov-450x460M.jpg"
               alt="Mikola-Tarasov"
-              sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+              sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px 100vw"
               />
               <div class="team__tagline">
                 <h3 class="team__title">Микола Тарасов</h3>
@@ -435,16 +434,16 @@
               <img
                 class="team__img--card"
                 srcset="
-                  ./images/Mikhailo-Yermakov-270-D.jpg  270w,
-                  ./images/Mikhailo-Yermakov-354-T.jpg  354w,
-                  ./images/Mikhailo-Yermakov-450-M.jpg  450w,
-                  ./images/Mikhailo-Yermakov-540@2x-D.jpg  540w,
-                  ./images/Mikhailo-Yermakov-708@2x-T.jpg  708w,
-                  ./images/Mikhailo-Yermakov-900@2x-M.jpg  900w,
+                ./images/Mikhailo-Yermakov-450x460M.jpg     450w,
+                ./images/Mikhailo-Yermakov-900x920M@2x.jpg  900w,
+                ./images/Mikhailo-Yermakov-354x374T.jpg     354w,
+                ./images/Mikhailo-Yermakov-708x748T@2x.jpg  708w,
+                ./images/Mikhailo-Yermakov-270x260D.jpg     270w,
+                ./images/Mikhailo-Yermakov-540x520D@2x.jpg  540w,
                 "
-                src="./images/Mikhailo-Yermakov-450-M.jpg"
+                src="./images/Mikhailo-Yermakov-450x460M.jpg "
                 alt="Mikhailo-Yermakov"
-                sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px 100vw"
               />
               <div class="team__tagline">
                 <h3 class="team__title">Михайло Єрмаков</h3>
